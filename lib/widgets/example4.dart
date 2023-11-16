@@ -5,7 +5,7 @@ import 'package:stickyheader/widgets/example3.dart';
 
 @immutable
 class Example4 extends StatefulWidget {
-  const Example4({Key? key}) : super(key: key);
+  const Example4({super.key});
 
   @override
   State<Example4> createState() => _Example4State();

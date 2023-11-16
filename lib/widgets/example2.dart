@@ -6,9 +6,9 @@ import 'package:stickyheader/widgets/scaffold_wrapper.dart';
 @immutable
 class Example2 extends StatelessWidget {
   const Example2({
-    Key? key,
+    super.key,
     this.controller,
-  }) : super(key: key);
+  });
 
   final ScrollController? controller;
 
